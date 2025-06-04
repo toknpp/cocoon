@@ -1,8 +1,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <style>
   body {
-    background: #EBE7E1;
-    background: #444;
     background: #5C5248;
   }
 </style>
@@ -32,8 +30,8 @@
   interaction-prompt-threshold="5000"
   camera-controls camera-target="-0.6m 1.5m -0.5m"
   camera-orbit="150deg 75deg 77%"
-  min-camera-orbit="auto 60deg auto"
-  max-camera-orbit="auto 86deg auto"
+  min-camera-orbit="auto 32deg auto"
+  max-camera-orbit="auto 88deg auto"
   rotation-per-second="-4deg"
   disable-pan touch-action="pan-y"
   exposure="0"
@@ -45,7 +43,7 @@
 
   <effect-composer render-mode="quality">
     <ssao-effect strength="2"></ssao-effect>
-    <!-- <bloom-effect></bloom-effect> -->
+    <bloom-effect></bloom-effect>
     <smaa-effect></smaa-effect>
   </effect-composer>
 
